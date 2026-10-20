@@ -197,6 +197,7 @@ namespace contractverify
         "ProposalDataV1<true>",
         "ProposalDataV1<false>",
         "ProposalSingleVoteDataV1",
+        "ProposalMultiVoteDataV1",
         "ProposalSummarizedVotingDataV1",
         "ProposalDataYesNo",
         "PreManagementRightsTransfer_input",

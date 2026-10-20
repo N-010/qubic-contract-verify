@@ -84,6 +84,10 @@ namespace contractverify
     SuccessTestInfo successContractTestInfos[] =
     {
         {
+            "test_ok_multi_vote_io.h",
+            "MultiVoteInputOutput"
+        },
+        {
             "test_ok_shareholder_hooks.h",
             "ShareholderHooks"
         },
