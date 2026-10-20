@@ -118,6 +118,10 @@ namespace contractverify
         // "SUBSCRIBE_ORACLE", -- due to a parser bug with macro parsing, it is better to not add this and let the parser treat it as function name
         "REGISTER_USER_PROCEDURE_NOTIFICATION",
         // shareholder voting macros
+        "SET_SHAREHOLDER_PROPOSAL",
+        "SET_SHAREHOLDER_PROPOSAL_WITH_LOCALS",
+        "SET_SHAREHOLDER_VOTES",
+        "SET_SHAREHOLDER_VOTES_WITH_LOCALS",
         "DEFINE_SHAREHOLDER_PROPOSAL_STORAGE",
         "IMPLEMENT_SetShareholderProposal",
         "IMPLEMENT_GetShareholderProposal",
@@ -131,6 +135,7 @@ namespace contractverify
         "IMPLEMENT_FinalizeShareholderStateVarProposals",
         "IMPLEMENT_DEFAULT_SHAREHOLDER_PROPOSAL_VOTING",
         "REGISTER_SHAREHOLDER_PROPSAL_VOTING",
+        "REGISTER_SHAREHOLDER_PROPOSAL_VOTING",
         "REGISTER_GetShareholderProposalFees",
         "REGISTER_GetShareholderProposalIndices",
         "REGISTER_GetShareholderProposal",
@@ -143,6 +148,7 @@ namespace contractverify
     static const std::vector<std::string> allowedScopePrefixes = {
         // QPI and names defined in qpi.h
         "QPI",
+        "Ch",
         "id",
         "ProposalTypes",
         "TransferType",
